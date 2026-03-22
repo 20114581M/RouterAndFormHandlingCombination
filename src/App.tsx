@@ -20,12 +20,12 @@ const App = () => {
       <HeaderMobile/>
         <div className='contentBody'>
           <Routes>
-            <Route path="/" element={<Home/>}/>
-            <Route path="/pages/About" element={<About/>}/>
-            <Route path="/pages/Services" element={<Services/>}/>
-            <Route path="/pages/Contact" element={<Contact/>}/>
-            <Route path="/pages/BookRequest" element={<BookRequest/>}/>
-            <Route path="/pages/EventFeedback" element={<EventFeedback/>}/>
+            <Route path="/RouterAndFormHandlingCombination" element={<Home/>}/>
+            <Route path="/RouterAndFormHandlingCombination/pages/About" element={<About/>}/>
+            <Route path="/RouterAndFormHandlingCombination/pages/Services" element={<Services/>}/>
+            <Route path="/RouterAndFormHandlingCombination/pages/Contact" element={<Contact/>}/>
+            <Route path="/RouterAndFormHandlingCombination/pages/BookRequest" element={<BookRequest/>}/>
+            <Route path="/RouterAndFormHandlingCombination/pages/EventFeedback" element={<EventFeedback/>}/>
           </Routes>
         </div>
       </BrowserRouter>
